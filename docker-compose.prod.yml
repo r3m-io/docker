@@ -2,8 +2,8 @@ version: '3.3'
 
 services:
   vps2_core:
-    container_name: docker-12-core
-    image: docker/12/core
+    container_name: docker-12.2-core
+    image: docker/12.2/core
     restart: always
     build:
       dockerfile: ./Docker/Dockerfile
