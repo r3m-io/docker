@@ -1,6 +1,6 @@
 {
     "require": {
-        "r3m_io/framework": ">=2024.04.26"
+        "r3m_io/framework": ">=2024.04.6937"
     },
     "prefer-stable": true,
     "require-dev": {
