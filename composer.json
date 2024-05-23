@@ -4,9 +4,15 @@
     },
     "prefer-stable": true,
     "require-dev": {
-        "phpstan/phpstan": "^1.10"
+        "phpstan/phpstan": "^1.10",
+        "pestphp/pest": "^2.34"
     },
     "scripts": {
-        "test": "app info all"
+        "test": "php Bin/R3m.php r3m_io/test run"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
