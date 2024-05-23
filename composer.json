@@ -13,7 +13,8 @@
         "r3m_io/boot": "dev-main",
         "r3m_io/server": "dev-main",
         "r3m_io/basic": "dev-main",
-        "r3m_io/example": "dev-main"
+        "r3m_io/example": "dev-main",
+        "r3m_io/account": "dev-main",
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
