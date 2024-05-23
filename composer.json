@@ -1,9 +1,13 @@
 {
     "require": {
-        "r3m_io/framework": ">=2024.04.6937"
+        "r3m_io/framework": ">=2024.04.6937",
+        "r3m_io/boot": "dev-main"
     },
     "prefer-stable": true,
     "require-dev": {
         "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "test": "app info all"
     }
 }
