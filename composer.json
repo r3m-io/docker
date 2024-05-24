@@ -3,5 +3,10 @@
         "r3m_io/framework": ">=2024.04.6937",
         "r3m_io/test": ">=2024.05.27"
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
