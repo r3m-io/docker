@@ -4,7 +4,7 @@ echo "mkdir -p /Application/Bin" >> ~/.bashrc
 echo "composer install -n" >> ~/.bashrc
 echo "cp /Application/vendor/r3m_io/framework/Bin/R3m.php /Application/Bin/R3m.php" >> ~/.bashrc
 echo "php /Application/Bin/R3m.php bin app" >> ~/.bashrc
-echo "app install r3m_io/boot" >> ~/.bashrc
+echo "app install r3m_io/boot -skip=cache-clear" >> ~/.bashrc
 #echo "app install r3m_io/node" >> ~/.bashrc
 #echo "app install r3m_io/route" >> ~/.bashrc
 #echo "app install r3m_io/event" >> ~/.bashrc

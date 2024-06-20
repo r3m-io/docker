@@ -1,6 +1,20 @@
 {
     "require": {
-        "r3m_io/framework": ">=2024.04.6937"
+        "r3m_io/framework": ">=2024.04.6937",
+        "r3m_io/boot": ">=2024-04-26",
+        "r3m_io/node": ">=2024-04-26",
+        "r3m_io/route": ">=2024-04-26",
+        "r3m_io/event": ">=2024-04-26",
+        "r3m_io/middleware": ">=2024-04-26",
+        "r3m_io/output_filter": ">=2024-04-26",
+        "r3m_io/config": ">=2024-04-26",
+        "r3m_io/autoload": ">=2024-04-26",
+        "r3m_io/server": ">=2024-04-26",
+        "r3m_io/log": ">=2024-04-26",
+        "r3m_io/host": ">=2024-04-26",
+        "r3m_io/basic": ">=2024-04-26",
+        "r3m_io/account": ">=2024-04-26",
+        "r3m_io/example": ">=2024-04-26"
     },
     "prefer-stable": true,
     "require-dev": {
